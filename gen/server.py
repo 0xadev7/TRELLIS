@@ -9,8 +9,8 @@ import uvicorn
 import torch
 from loguru import logger
 
-from settings import Config, get_config
-from state import TrellisState
+from .settings import Config, get_config
+from .state import TrellisState
 
 app = FastAPI()
 STATE: TrellisState | None = None

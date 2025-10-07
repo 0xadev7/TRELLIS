@@ -13,7 +13,7 @@ from loguru import logger
 import imageio
 import numpy as np
 
-from settings import Config
+from .settings import Config
 
 # Trellis imports
 from trellis.pipelines import TrellisTextTo3DPipeline
